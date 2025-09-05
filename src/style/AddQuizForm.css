@@ -1,0 +1,79 @@
+.add-quiz-form-container {
+  width: 400px;
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 25px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-quiz-form-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 22px;
+}
+
+.add-quiz-form-message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #ffe0e0;
+  color: #d32f2f;
+  font-size: 14px;
+  text-align: center;
+}
+
+.add-quiz-form-input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.2s;
+}
+
+.add-quiz-form-input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 6px rgba(76, 175, 80, 0.3);
+}
+
+.add-quiz-form-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.add-quiz-form-buttons button {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.add-quiz-form-buttons button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.add-quiz-form-buttons button:first-child:hover {
+  background-color: #43a047;
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.4);
+}
+
+.add-quiz-form-buttons button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+.add-quiz-form-buttons button:last-child:hover {
+  background-color: #d32f2f;
+  box-shadow: 0 4px 10px rgba(244, 67, 54, 0.4);
+}

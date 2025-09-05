@@ -1,0 +1,1758 @@
+[
+  {
+    "title": "cnx",
+    "quizFile": [
+      {
+        "number": "1",
+        "question": "What is the primary function of the physical layer in a network?",
+        "options": [
+          "Data encryption",
+          "Data formatting",
+          "Transmission of raw bits",
+          "Error detection"
+        ],
+        "answer": "Transmission of raw bits"
+      },
+      {
+        "number": "2",
+        "question": "Which of the following is a type of guided transmission media?",
+        "options": [
+          "Radio waves",
+          "Fiber optics",
+          "Infrared",
+          "Satellite"
+        ],
+        "answer": "Fiber optics"
+      },
+      {
+        "number": "3",
+        "question": "What does the term bandwidth refer to?",
+        "options": [
+          "The amount of data that can be transmitted in a given time",
+          "The physical distance between nodes",
+          "The number of devices connected to a network",
+          "The quality of the signal"
+        ],
+        "answer": "The amount of data that can be transmitted in a given time"
+      },
+      {
+        "number": "4",
+        "question": "Which of the following protocols is used for error detection?",
+        "options": [
+          "TCP",
+          "IP",
+          "CRC",
+          "UDP"
+        ],
+        "answer": "CRC"
+      },
+      {
+        "number": "5",
+        "question": "What is the main purpose of the data link layer?",
+        "options": [
+          "To establish connections",
+          "To provide error-free transfer of data frames",
+          "To route packets",
+          "To manage sessions"
+        ],
+        "answer": "To provide error-free transfer of data frames"
+      },
+      {
+        "number": "6",
+        "question": "In the context of networks, what does latency refer to?",
+        "options": [
+          "The speed of the network",
+          "The delay before a transfer of data begins",
+          "The amount of data sent",
+          "The number of packets lost"
+        ],
+        "answer": "The speed of the network"
+      },
+      {
+        "number": "7",
+        "question": "Which of the following is NOT a multiple access protocol?",
+        "options": [
+          "TDMA",
+          "FDMA",
+          "CDMA",
+          "TCP"
+        ],
+        "answer": "TCP"
+      },
+      {
+        "number": "8",
+        "question": "What is the function of the network layer?",
+        "options": [
+          "To manage data flow",
+          "To route packets between devices",
+          "To encrypt data",
+          "To establish sessions"
+        ],
+        "answer": "To route packets between devices"
+      },
+      {
+        "number": "9",
+        "question": "Which routing algorithm uses the shortest path principle?",
+        "options": [
+          "Flooding",
+          "Distance Vector",
+          "Link State",
+          "Hierarchical Routing"
+        ],
+        "answer": "Distance Vector"
+      },
+      {
+        "number": "10",
+        "question": "What does congestion control aim to prevent?",
+        "options": [
+          "Packet loss",
+          "Data corruption",
+          "Unauthorized access",
+          "Network downtime"
+        ],
+        "answer": "Packet loss"
+      },
+      {
+        "number": "11",
+        "question": "Which protocol is associated with connection-oriented service?",
+        "options": [
+          "UDP",
+          "TCP",
+          "IP",
+          "ARP"
+        ],
+        "answer": "TCP"
+      },
+      {
+        "number": "12",
+        "question": "What is the role of the medium access control sublayer?",
+        "options": [
+          "To manage the physical medium",
+          "To control access to the shared medium",
+          "To establish connections",
+          "To route data"
+        ],
+        "answer": "To control access to the shared medium"
+      },
+      {
+        "number": "13",
+        "question": "Which of the following is a characteristic of a datagram subnet?",
+        "options": [
+          "Connection-oriented",
+          "Reliable delivery",
+          "Variable packet length",
+          "Fixed routing paths"
+        ],
+        "answer": "Variable packet length"
+      },
+      {
+        "number": "14",
+        "question": "What type of network topology connects all devices to a single central hub?",
+        "options": [
+          "Star",
+          "Ring",
+          "Mesh",
+          "Bus"
+        ],
+        "answer": "Star"
+      },
+      {
+        "number": "15",
+        "question": "Which of the following is an example of a transport layer protocol?",
+        "options": [
+          "HTTP",
+          "FTP",
+          "TCP",
+          "IP"
+        ],
+        "answer": "TCP"
+      },
+      {
+        "number": "16",
+        "question": "What is the primary disadvantage of using a bus topology?",
+        "options": [
+          "High cost",
+          "Limited distance",
+          "Single point of failure",
+          "Complexity"
+        ],
+        "answer": "Limited distance"
+      },
+      {
+        "number": "17",
+        "question": "Which of the following describes a collision in a network?",
+        "options": [
+          "When two packets are sent simultaneously on the same channel",
+          "When a device fails",
+          "When data is corrupted",
+          "When a network is overloaded"
+        ],
+        "answer": "When two packets are sent simultaneously on the same channel"
+      },
+      {
+        "number": "18",
+        "question": "What does throughput measure in a network?",
+        "options": [
+          "The maximum data rate",
+          "The actual data rate achieved",
+          "The number of devices connected",
+          "The latency of the network"
+        ],
+        "answer": "The actual data rate achieved"
+      },
+      {
+        "number": "19",
+        "question": "Which of the following is a disadvantage of wireless transmission?",
+        "options": [
+          "High speed",
+          "Mobility",
+          "Susceptibility to interference",
+          "Flexibility"
+        ],
+        "answer": "Susceptibility to interference"
+      },
+      {
+        "number": "20",
+        "question": "What is the purpose of error correction?",
+        "options": [
+          "To enhance signal strength",
+          "To detect and correct errors in transmitted data",
+          "To increase bandwidth",
+          "To manage network traffic"
+        ],
+        "answer": "To detect and correct errors in transmitted data"
+      },
+      {
+        "number": "21",
+        "question": "What is the primary goal of network security?",
+        "options": [
+          "To improve speed",
+          "To prevent unauthorized access",
+          "To increase bandwidth",
+          "To enhance performance"
+        ],
+        "answer": "To prevent unauthorized access"
+      },
+      {
+        "number": "22",
+        "question": "Which layer of the OSI model is responsible for end-to-end communication?",
+        "options": [
+          "Physical",
+          "Data Link",
+          "Network",
+          "Transport"
+        ],
+        "answer": "Network"
+      },
+      {
+        "number": "23",
+        "question": "Which of the following is a common characteristic of a peer-to-peer network?",
+        "options": [
+          "Centralized management",
+          "Shared resources among users",
+          "High security",
+          "Complex configuration"
+        ],
+        "answer": "Shared resources among users"
+      },
+      {
+        "number": "24",
+        "question": "What is a frame in data communication?",
+        "options": [
+          "A type of error message",
+          "A unit of data with headers and trailers",
+          "A network protocol",
+          "A signal type"
+        ],
+        "answer": "A unit of data with headers and trailers"
+      },
+      {
+        "number": "25",
+        "question": "Which of the following is used to identify devices on a network?",
+        "options": [
+          "IP address",
+          "MAC address",
+          "Port number",
+          "Both A and B"
+        ],
+        "answer": "Both A and B"
+      },
+      {
+        "number": "26",
+        "question": "What does the term topology refer to in networking?",
+        "options": [
+          "The physical layout of a network",
+          "The software used in a network",
+          "The protocols implemented",
+          "The security measures"
+        ],
+        "answer": "The physical layout of a network"
+      },
+      {
+        "number": "27",
+        "question": "Which of the following is a function of the application layer?",
+        "options": [
+          "Data transmission",
+          "Error detection",
+          "Providing network services to applications",
+          "Routing packets"
+        ],
+        "answer": "Providing network services to applications"
+      },
+      {
+        "number": "28",
+        "question": "What is the main advantage of using fiber optic cables?",
+        "options": [
+          "Low cost",
+          "High bandwidth and low attenuation",
+          "Easy installation",
+          "Flexibility"
+        ],
+        "answer": "High bandwidth and low attenuation"
+      },
+      {
+        "number": "29",
+        "question": "Which of the following protocols is used for file transfer?",
+        "options": [
+          "SMTP",
+          "FTP",
+          "HTTP",
+          "POP3"
+        ],
+        "answer": "FTP"
+      },
+      {
+        "number": "30",
+        "question": "What type of addressing does IPv4 use?",
+        "options": [
+          "32-bit addresses",
+          "64-bit addresses",
+          "128-bit addresses",
+          "16-bit addresses"
+        ],
+        "answer": "32-bit addresses"
+      },
+      {
+        "number": "31",
+        "question": "Which layer provides the services to user?",
+        "options": [
+          "physical layer",
+          "presentation layer",
+          "session layer",
+          "application layer"
+        ],
+        "answer": "application layer"
+      },
+      {
+        "number": "32",
+        "question": "Which connection is necessary for a computer to join the internet?",
+        "options": [
+          "internet society",
+          "internet service provider",
+          "different computer",
+          "internet architecture board"
+        ],
+        "answer": "internet service provider"
+      },
+      {
+        "number": "33",
+        "question": "Which of the following allows you to connect and login to a remote computer?",
+        "options": [
+          "SMTP",
+          "HTTP",
+          "FTP",
+          "Telnet"
+        ],
+        "answer": "Telnet"
+      },
+      {
+        "number": "34",
+        "question": "Which of the following is used in an attempt to render a computer resource unavailable to its intended users?",
+        "options": [
+          "botnet process",
+          "worms attack",
+          "virus attack",
+          "denial-of-service attack"
+        ],
+        "answer": "denial-of-service attack"
+      },
+      {
+        "number": "35",
+        "question": "The layer responsible for resolving access to the shared media or resources is?",
+        "options": [
+          "physical",
+          "network",
+          "transport"
+        ],
+        "answer": "physical"
+      },
+      {
+        "number": "36",
+        "question": "Which of the following is a type of coding?",
+        "options": [
+          "block coding",
+          "convolution coding"
+        ],
+        "answer": "convolution coding"
+      },
+      {
+        "number": "37",
+        "question": "Type of transmission: one-way?",
+        "options": [
+          "simplex transmission",
+          "half-duplex",
+          "full-duplex",
+          "None of the above"
+        ],
+        "answer": "simplex transmission"
+      },
+      {
+        "number": "38",
+        "question": "Complex routing strategies are often used in which systems?",
+        "options": [
+          "Internetworking",
+          "Intranetworking",
+          "Networking"
+        ],
+        "answer": "Internetworking"
+      },
+      {
+        "number": "39",
+        "question": "Which is the lowest layer of the OSI model?",
+        "options": [
+          "Data Link",
+          "Application",
+          "Network",
+          "Physical"
+        ],
+        "answer": "Physical"
+      },
+      {
+        "number": "40",
+        "question": "Which of the following is the top layer of OSI model?",
+        "options": [
+          "Presentation",
+          "Session",
+          "Application",
+          "Transport"
+        ],
+        "answer": "Application"
+      },
+      {
+        "number": "41",
+        "question": "Which layer of OSI model transmits raw bits over a communication channel?",
+        "options": [
+          "Data Link",
+          "Physical",
+          "Network",
+          "Session"
+        ],
+        "answer": "Physical"
+      },
+      {
+        "number": "42",
+        "question": "In Intrusion Detection Systems (IDS), what is a signature?",
+        "options": [
+          "A set of rules or patterns to identify malicious activities",
+          "A software program",
+          "A hardware device",
+          "A protocol"
+        ],
+        "answer": "A set of rules or patterns to identify malicious activities"
+      },
+      {
+        "number": "43",
+        "question": "What is the primary function of a router?",
+        "options": [
+          "Routes data packets between networks",
+          "Filters network traffic for security",
+          "Connects computers within a local network",
+          "Converts analog signals to digital"
+        ],
+        "answer": "Routes data packets between networks"
+      },
+      {
+        "number": "44",
+        "question": "Syntax and semantics of the information exchanged between two systems are done by?",
+        "options": [
+          "Session layer",
+          "Application layer"
+        ],
+        "answer": "Application layer"
+      },
+      {
+        "number": "45",
+        "question": "What type of distortion occurs due to attenuation?",
+        "options": [
+          "Attenuation distortion",
+          "Delay distortion",
+          "Noise"
+        ],
+        "answer": "Attenuation distortion"
+      },
+      {
+        "number": "46",
+        "question": "If the value of a signal changes over a very short span of time, its frequency is?",
+        "options": [
+          "Low",
+          "High",
+          "Average",
+          "Zero"
+        ],
+        "answer": "High"
+      },
+      {
+        "number": "47",
+        "question": "What does CRC stand for?",
+        "options": [
+          "Cyclic Redundancy Check",
+          "Code Redundancy Check",
+          "Cyclic Redundant Code",
+          "Code Response Check"
+        ],
+        "answer": "Cyclic Redundancy Check"
+      },
+      {
+        "number": "48",
+        "question": "If a signal changes quickly, its frequency is?",
+        "options": [
+          "Low",
+          "High",
+          "Average",
+          "Zero"
+        ],
+        "answer": "High"
+      },
+      {
+        "number": "49",
+        "question": "The processes on each machine that communicate at a given layer are called?",
+        "options": [
+          "UDP process",
+          "Intranet process",
+          "Server technology",
+          "Peer-to-peer process"
+        ],
+        "answer": "Peer-to-peer process"
+      },
+      {
+        "number": "50",
+        "question": "Which of the following layer is not network support layer?",
+        "options": [
+          "Transport Layer",
+          "Network Layer",
+          "Data link Layer",
+          "Physical Layer"
+        ],
+        "answer": "Physical Layer"
+      },
+      {
+        "number": "51",
+        "question": "What is the primary role of the data link layer?",
+        "options": [
+          "To route packets",
+          "To provide node-to-node data transfer",
+          "To encrypt data",
+          "To manage sessions"
+        ],
+        "answer": "To provide node-to-node data transfer"
+      },
+      {
+        "number": "52",
+        "question": "What does the term network topology refer to?",
+        "options": [
+          "The layout of devices in a network",
+          "The speed of data transfer",
+          "The protocols used in a network",
+          "The security measures in place"
+        ],
+        "answer": "The layout of devices in a network"
+      },
+      {
+        "number": "53",
+        "question": "Which of the following protocols is used for email transmission?",
+        "options": [
+          "HTTP",
+          "SMTP",
+          "FTP",
+          "DHCP"
+        ],
+        "answer": "SMTP"
+      },
+      {
+        "number": "54",
+        "question": "What is the primary purpose of a proxy server?",
+        "options": [
+          "To increase bandwidth",
+          "To act as an intermediary for requests from clients",
+          "To manage network traffic",
+          "To encrypt data"
+        ],
+        "answer": "To act as an intermediary for requests from clients"
+      },
+      {
+        "number": "55",
+        "question": "Which of the following is an example of a connectionless protocol?",
+        "options": [
+          "TCP",
+          "UDP",
+          "HTTP",
+          "FTP"
+        ],
+        "answer": "UDP"
+      },
+      {
+        "number": "56",
+        "question": "What is the purpose of NAT Network Address Translation?",
+        "options": [
+          "To route packets",
+          "To provide security",
+          "To conserve IP addresses",
+          "To manage bandwidth"
+        ],
+        "answer": "To conserve IP addresses"
+      },
+      {
+        "number": "57",
+        "question": "Which of the following is NOT a function of the network layer?",
+        "options": [
+          "Routing",
+          "Packet forwarding",
+          "Error detection",
+          "Fragmentation"
+        ],
+        "answer": "Error detection"
+      },
+      {
+        "number": "58",
+        "question": "Min hamming distance to achieve 1 bit error correction",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3"
+      },
+      {
+        "number": "59",
+        "question": "Which of the following is a disadvantage of a mesh topology?",
+        "options": [
+          "High redundancy",
+          "Complex installation",
+          "High reliability",
+          "Low cost"
+        ],
+        "answer": "Complex installation"
+      },
+      {
+        "number": "60",
+        "question": "Which of the following is not a sliding window protocol?",
+        "options": [
+          "one-bit window stop and wait",
+          "goback N",
+          "selective repeat",
+          "simplex protocol"
+        ],
+        "answer": "simplex protocol"
+      },
+      {
+        "number": "61",
+        "question": "Order of layers in TCPIP I Physical II Network III Data link IV Transport V Application is",
+        "options": [
+          "I II III IV V",
+          "I III II IV V",
+          "I IV II III V",
+          "II I III IV V"
+        ],
+        "answer": "I III II IV V"
+      },
+      {
+        "number": "62",
+        "question": "Cause for Interference in unguided transmission media could be",
+        "options": [
+          "Rain",
+          "Other sounds",
+          "Overcrowded place",
+          "ALL of THESE"
+        ],
+        "answer": "ALL of THESE"
+      },
+      {
+        "number": "63",
+        "question": "Computer network does not finds its application in",
+        "options": [
+          "Online buying",
+          "Instant messaging",
+          "VoIP",
+          "Watch a TV Serial"
+        ],
+        "answer": "Watch a TV Serial"
+      },
+      {
+        "number": "64",
+        "question": "Computer network does not finds its application in",
+        "options": [
+          "Wireless communication with laptops",
+          "Taxi booking in metropolis",
+          "VPN",
+          "Shopping at a local store"
+        ],
+        "answer": "Shopping at a local store"
+      },
+      {
+        "number": "65",
+        "question": "The increasing order of the size of networks is",
+        "options": [
+          "LANWANMANPAN",
+          "PANLANMANWAN",
+          "WANMANLANPAN",
+          "SANVANMANLAN"
+        ],
+        "answer": "PANLANMANWAN"
+      },
+      {
+        "number": "66",
+        "question": "Which network does not support the distance mentioned",
+        "options": [
+          "LAN 10m-1km",
+          "MAN 10km",
+          "WAN- 100km-1000km",
+          "PAN- 1000km"
+        ],
+        "answer": "PAN- 1000km"
+      },
+      {
+        "number": "67",
+        "question": "Which of these is inappropriate among protocols",
+        "options": [
+          "Simplex -One-way",
+          "Half Duplex- Two-way",
+          "Full Duplex- Highway",
+          "Half simplex- No Communication"
+        ],
+        "answer": "Half simplex- No Communication"
+      },
+      {
+        "number": "68",
+        "question": "Connection oriented services cannot be likened to",
+        "options": [
+          "TelePhone system",
+          "Fax system",
+          "Mobile system",
+          "Postal System"
+        ],
+        "answer": "Postal System"
+      },
+      {
+        "number": "69",
+        "question": "Connection less service cannot be likened to",
+        "options": [
+          "Postal System",
+          "Swiggy system",
+          "Door delivery system",
+          "Mobile system"
+        ],
+        "answer": "Mobile system"
+      },
+      {
+        "number": "70",
+        "question": "Consider a channel with a 1-MHz bandwidth and SNR is 63. Calculated bit rate of the channel using Shannon formula is",
+        "options": [
+          "6 Mbps",
+          "7 Mbps",
+          "8 Mbps",
+          "9 Mbps"
+        ],
+        "answer": "7 Mbps"
+      },
+      {
+        "number": "71",
+        "question": "Consider a channel with a 1-MHz bandwidth and SNR is 63. The signal level using Nyquist formula consider 4Mbps as bandwidth for Nyquist formulais",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "2"
+      },
+      {
+        "number": "72",
+        "question": "Order the following materials of a Thick coaxial cable from innermost to outermost",
+        "options": [
+          "core, plastic cover, braided conductor, insulating material",
+          "core, braided conductor, plastic cover ,insulating material",
+          "core, insulating material , braided conductor, plastic cover",
+          "plastic cover , core, insulating material , braided conductor"
+        ],
+        "answer": "core, insulating material , braided conductor, plastic cover"
+      },
+      {
+        "number": "73",
+        "question": "Which of these not linked to fibre optics",
+        "options": [
+          "Total internal reflection",
+          "Copper wire",
+          "Glass core",
+          "Photo diode"
+        ],
+        "answer": "Copper wire"
+      },
+      {
+        "number": "74",
+        "question": "Order the following in the increasing order of frequency",
+        "options": [
+          "Visible Light X rays radio waves",
+          "Radio waves Infrared waves UV rays",
+          "Microwaves X rays Visible light",
+          "Radio Infrared Microwave"
+        ],
+        "answer": "Radio waves Infrared waves UV rays"
+      },
+      {
+        "number": "75",
+        "question": "Order the following in the increasing order of frequency",
+        "options": [
+          "Maritime radio TV",
+          "FM Radio AM radio Terrestrial Microwave",
+          "Terrestrial Microwave FM radio AM Radio",
+          "Radio Infrared Microwave"
+        ],
+        "answer": "Maritime radio TV"
+      },
+      {
+        "number": "76",
+        "question": "CSMACD stands for",
+        "options": [
+          "Carrier Sensing Multiple alliance Collision avoidance",
+          "Carrier Sensing Multiple alliance Collision Detection",
+          "Carrier Sensing Multiple access Collision avoidance",
+          "Carrier Sensing Multiple access Collision Detection"
+        ],
+        "answer": "Carrier Sensing Multiple access Collision Detection"
+      },
+      {
+        "number": "77",
+        "question": "Binary exponential back off means waiting for a period of time slots",
+        "options": [
+          "1,2,3,4",
+          "1,2,4,8",
+          "1,2,2,4",
+          "2,4,6,8"
+        ],
+        "answer": "1,2,4,8"
+      },
+      {
+        "number": "78",
+        "question": "Point to Point protocol supports",
+        "options": [
+          "Multi Cast",
+          "Broad Cast",
+          "Uni Cast",
+          "Group Cast"
+        ],
+        "answer": "Uni Cast"
+      },
+      {
+        "number": "79",
+        "question": "The minimum time a station has to wait before sending the next signal Prop- propagation delay between stations",
+        "options": [
+          "TProp",
+          "2xTProp",
+          "3xTProp",
+          "No wait"
+        ],
+        "answer": "2xTProp"
+      },
+      {
+        "number": "80",
+        "question": "In case of a collision in the channel between two stations, what follows?",
+        "options": [
+          "Retransmit frame immediately",
+          "Wait a Random time and retransmit frame",
+          "do nothing",
+          "Any of these"
+        ],
+        "answer": "Wait a Random time and retransmit frame"
+      }
+    ]
+  },
+  {
+    "title": "dsx",
+    "quizFile": [
+      {
+        "number": "1",
+        "question": "What is the primary function of the physical layer in a network?",
+        "options": [
+          "Data encryption",
+          "Data formatting",
+          "Transmission of raw bits",
+          "Error detection"
+        ],
+        "answer": "Transmission of raw bits"
+      },
+      {
+        "number": "2",
+        "question": "Which of the following is a type of guided transmission media?",
+        "options": [
+          "Radio waves",
+          "Fiber optics",
+          "Infrared",
+          "Satellite"
+        ],
+        "answer": "Fiber optics"
+      },
+      {
+        "number": "3",
+        "question": "What does the term bandwidth refer to?",
+        "options": [
+          "The amount of data that can be transmitted in a given time",
+          "The physical distance between nodes",
+          "The number of devices connected to a network",
+          "The quality of the signal"
+        ],
+        "answer": "The amount of data that can be transmitted in a given time"
+      },
+      {
+        "number": "4",
+        "question": "Which of the following protocols is used for error detection?",
+        "options": [
+          "TCP",
+          "IP",
+          "CRC",
+          "UDP"
+        ],
+        "answer": "CRC"
+      },
+      {
+        "number": "5",
+        "question": "What is the main purpose of the data link layer?",
+        "options": [
+          "To establish connections",
+          "To provide error-free transfer of data frames",
+          "To route packets",
+          "To manage sessions"
+        ],
+        "answer": "To provide error-free transfer of data frames"
+      },
+      {
+        "number": "6",
+        "question": "In the context of networks, what does latency refer to?",
+        "options": [
+          "The speed of the network",
+          "The delay before a transfer of data begins",
+          "The amount of data sent",
+          "The number of packets lost"
+        ],
+        "answer": "The speed of the network"
+      },
+      {
+        "number": "7",
+        "question": "Which of the following is NOT a multiple access protocol?",
+        "options": [
+          "TDMA",
+          "FDMA",
+          "CDMA",
+          "TCP"
+        ],
+        "answer": "TCP"
+      },
+      {
+        "number": "8",
+        "question": "What is the function of the network layer?",
+        "options": [
+          "To manage data flow",
+          "To route packets between devices",
+          "To encrypt data",
+          "To establish sessions"
+        ],
+        "answer": "To route packets between devices"
+      },
+      {
+        "number": "9",
+        "question": "Which routing algorithm uses the shortest path principle?",
+        "options": [
+          "Flooding",
+          "Distance Vector",
+          "Link State",
+          "Hierarchical Routing"
+        ],
+        "answer": "Distance Vector"
+      },
+      {
+        "number": "10",
+        "question": "What does congestion control aim to prevent?",
+        "options": [
+          "Packet loss",
+          "Data corruption",
+          "Unauthorized access",
+          "Network downtime"
+        ],
+        "answer": "Packet loss"
+      },
+      {
+        "number": "11",
+        "question": "Which protocol is associated with connection-oriented service?",
+        "options": [
+          "UDP",
+          "TCP",
+          "IP",
+          "ARP"
+        ],
+        "answer": "TCP"
+      },
+      {
+        "number": "12",
+        "question": "What is the role of the medium access control sublayer?",
+        "options": [
+          "To manage the physical medium",
+          "To control access to the shared medium",
+          "To establish connections",
+          "To route data"
+        ],
+        "answer": "To control access to the shared medium"
+      },
+      {
+        "number": "13",
+        "question": "Which of the following is a characteristic of a datagram subnet?",
+        "options": [
+          "Connection-oriented",
+          "Reliable delivery",
+          "Variable packet length",
+          "Fixed routing paths"
+        ],
+        "answer": "Variable packet length"
+      },
+      {
+        "number": "14",
+        "question": "What type of network topology connects all devices to a single central hub?",
+        "options": [
+          "Star",
+          "Ring",
+          "Mesh",
+          "Bus"
+        ],
+        "answer": "Star"
+      },
+      {
+        "number": "15",
+        "question": "Which of the following is an example of a transport layer protocol?",
+        "options": [
+          "HTTP",
+          "FTP",
+          "TCP",
+          "IP"
+        ],
+        "answer": "TCP"
+      },
+      {
+        "number": "16",
+        "question": "What is the primary disadvantage of using a bus topology?",
+        "options": [
+          "High cost",
+          "Limited distance",
+          "Single point of failure",
+          "Complexity"
+        ],
+        "answer": "Limited distance"
+      },
+      {
+        "number": "17",
+        "question": "Which of the following describes a collision in a network?",
+        "options": [
+          "When two packets are sent simultaneously on the same channel",
+          "When a device fails",
+          "When data is corrupted",
+          "When a network is overloaded"
+        ],
+        "answer": "When two packets are sent simultaneously on the same channel"
+      },
+      {
+        "number": "18",
+        "question": "What does throughput measure in a network?",
+        "options": [
+          "The maximum data rate",
+          "The actual data rate achieved",
+          "The number of devices connected",
+          "The latency of the network"
+        ],
+        "answer": "The actual data rate achieved"
+      },
+      {
+        "number": "19",
+        "question": "Which of the following is a disadvantage of wireless transmission?",
+        "options": [
+          "High speed",
+          "Mobility",
+          "Susceptibility to interference",
+          "Flexibility"
+        ],
+        "answer": "Susceptibility to interference"
+      },
+      {
+        "number": "20",
+        "question": "What is the purpose of error correction?",
+        "options": [
+          "To enhance signal strength",
+          "To detect and correct errors in transmitted data",
+          "To increase bandwidth",
+          "To manage network traffic"
+        ],
+        "answer": "To detect and correct errors in transmitted data"
+      },
+      {
+        "number": "21",
+        "question": "What is the primary goal of network security?",
+        "options": [
+          "To improve speed",
+          "To prevent unauthorized access",
+          "To increase bandwidth",
+          "To enhance performance"
+        ],
+        "answer": "To prevent unauthorized access"
+      },
+      {
+        "number": "22",
+        "question": "Which layer of the OSI model is responsible for end-to-end communication?",
+        "options": [
+          "Physical",
+          "Data Link",
+          "Network",
+          "Transport"
+        ],
+        "answer": "Network"
+      },
+      {
+        "number": "23",
+        "question": "Which of the following is a common characteristic of a peer-to-peer network?",
+        "options": [
+          "Centralized management",
+          "Shared resources among users",
+          "High security",
+          "Complex configuration"
+        ],
+        "answer": "Shared resources among users"
+      },
+      {
+        "number": "24",
+        "question": "What is a frame in data communication?",
+        "options": [
+          "A type of error message",
+          "A unit of data with headers and trailers",
+          "A network protocol",
+          "A signal type"
+        ],
+        "answer": "A unit of data with headers and trailers"
+      },
+      {
+        "number": "25",
+        "question": "Which of the following is used to identify devices on a network?",
+        "options": [
+          "IP address",
+          "MAC address",
+          "Port number",
+          "Both A and B"
+        ],
+        "answer": "Both A and B"
+      },
+      {
+        "number": "26",
+        "question": "What does the term topology refer to in networking?",
+        "options": [
+          "The physical layout of a network",
+          "The software used in a network",
+          "The protocols implemented",
+          "The security measures"
+        ],
+        "answer": "The physical layout of a network"
+      },
+      {
+        "number": "27",
+        "question": "Which of the following is a function of the application layer?",
+        "options": [
+          "Data transmission",
+          "Error detection",
+          "Providing network services to applications",
+          "Routing packets"
+        ],
+        "answer": "Providing network services to applications"
+      },
+      {
+        "number": "28",
+        "question": "What is the main advantage of using fiber optic cables?",
+        "options": [
+          "Low cost",
+          "High bandwidth and low attenuation",
+          "Easy installation",
+          "Flexibility"
+        ],
+        "answer": "High bandwidth and low attenuation"
+      },
+      {
+        "number": "29",
+        "question": "Which of the following protocols is used for file transfer?",
+        "options": [
+          "SMTP",
+          "FTP",
+          "HTTP",
+          "POP3"
+        ],
+        "answer": "FTP"
+      },
+      {
+        "number": "30",
+        "question": "What type of addressing does IPv4 use?",
+        "options": [
+          "32-bit addresses",
+          "64-bit addresses",
+          "128-bit addresses",
+          "16-bit addresses"
+        ],
+        "answer": "32-bit addresses"
+      },
+      {
+        "number": "31",
+        "question": "Which layer provides the services to user?",
+        "options": [
+          "physical layer",
+          "presentation layer",
+          "session layer",
+          "application layer"
+        ],
+        "answer": "application layer"
+      },
+      {
+        "number": "32",
+        "question": "Which connection is necessary for a computer to join the internet?",
+        "options": [
+          "internet society",
+          "internet service provider",
+          "different computer",
+          "internet architecture board"
+        ],
+        "answer": "internet service provider"
+      },
+      {
+        "number": "33",
+        "question": "Which of the following allows you to connect and login to a remote computer?",
+        "options": [
+          "SMTP",
+          "HTTP",
+          "FTP",
+          "Telnet"
+        ],
+        "answer": "Telnet"
+      },
+      {
+        "number": "34",
+        "question": "Which of the following is used in an attempt to render a computer resource unavailable to its intended users?",
+        "options": [
+          "botnet process",
+          "worms attack",
+          "virus attack",
+          "denial-of-service attack"
+        ],
+        "answer": "denial-of-service attack"
+      },
+      {
+        "number": "35",
+        "question": "The layer responsible for resolving access to the shared media or resources is?",
+        "options": [
+          "physical",
+          "network",
+          "transport"
+        ],
+        "answer": "physical"
+      },
+      {
+        "number": "36",
+        "question": "Which of the following is a type of coding?",
+        "options": [
+          "block coding",
+          "convolution coding"
+        ],
+        "answer": "convolution coding"
+      },
+      {
+        "number": "37",
+        "question": "Type of transmission: one-way?",
+        "options": [
+          "simplex transmission",
+          "half-duplex",
+          "full-duplex",
+          "None of the above"
+        ],
+        "answer": "simplex transmission"
+      },
+      {
+        "number": "38",
+        "question": "Complex routing strategies are often used in which systems?",
+        "options": [
+          "Internetworking",
+          "Intranetworking",
+          "Networking"
+        ],
+        "answer": "Internetworking"
+      },
+      {
+        "number": "39",
+        "question": "Which is the lowest layer of the OSI model?",
+        "options": [
+          "Data Link",
+          "Application",
+          "Network",
+          "Physical"
+        ],
+        "answer": "Physical"
+      },
+      {
+        "number": "40",
+        "question": "Which of the following is the top layer of OSI model?",
+        "options": [
+          "Presentation",
+          "Session",
+          "Application",
+          "Transport"
+        ],
+        "answer": "Application"
+      },
+      {
+        "number": "41",
+        "question": "Which layer of OSI model transmits raw bits over a communication channel?",
+        "options": [
+          "Data Link",
+          "Physical",
+          "Network",
+          "Session"
+        ],
+        "answer": "Physical"
+      },
+      {
+        "number": "42",
+        "question": "In Intrusion Detection Systems (IDS), what is a signature?",
+        "options": [
+          "A set of rules or patterns to identify malicious activities",
+          "A software program",
+          "A hardware device",
+          "A protocol"
+        ],
+        "answer": "A set of rules or patterns to identify malicious activities"
+      },
+      {
+        "number": "43",
+        "question": "What is the primary function of a router?",
+        "options": [
+          "Routes data packets between networks",
+          "Filters network traffic for security",
+          "Connects computers within a local network",
+          "Converts analog signals to digital"
+        ],
+        "answer": "Routes data packets between networks"
+      },
+      {
+        "number": "44",
+        "question": "Syntax and semantics of the information exchanged between two systems are done by?",
+        "options": [
+          "Session layer",
+          "Application layer"
+        ],
+        "answer": "Application layer"
+      },
+      {
+        "number": "45",
+        "question": "What type of distortion occurs due to attenuation?",
+        "options": [
+          "Attenuation distortion",
+          "Delay distortion",
+          "Noise"
+        ],
+        "answer": "Attenuation distortion"
+      },
+      {
+        "number": "46",
+        "question": "If the value of a signal changes over a very short span of time, its frequency is?",
+        "options": [
+          "Low",
+          "High",
+          "Average",
+          "Zero"
+        ],
+        "answer": "High"
+      },
+      {
+        "number": "47",
+        "question": "What does CRC stand for?",
+        "options": [
+          "Cyclic Redundancy Check",
+          "Code Redundancy Check",
+          "Cyclic Redundant Code",
+          "Code Response Check"
+        ],
+        "answer": "Cyclic Redundancy Check"
+      },
+      {
+        "number": "48",
+        "question": "If a signal changes quickly, its frequency is?",
+        "options": [
+          "Low",
+          "High",
+          "Average",
+          "Zero"
+        ],
+        "answer": "High"
+      },
+      {
+        "number": "49",
+        "question": "The processes on each machine that communicate at a given layer are called?",
+        "options": [
+          "UDP process",
+          "Intranet process",
+          "Server technology",
+          "Peer-to-peer process"
+        ],
+        "answer": "Peer-to-peer process"
+      },
+      {
+        "number": "50",
+        "question": "Which of the following layer is not network support layer?",
+        "options": [
+          "Transport Layer",
+          "Network Layer",
+          "Data link Layer",
+          "Physical Layer"
+        ],
+        "answer": "Physical Layer"
+      },
+      {
+        "number": "51",
+        "question": "What is the primary role of the data link layer?",
+        "options": [
+          "To route packets",
+          "To provide node-to-node data transfer",
+          "To encrypt data",
+          "To manage sessions"
+        ],
+        "answer": "To provide node-to-node data transfer"
+      },
+      {
+        "number": "52",
+        "question": "What does the term network topology refer to?",
+        "options": [
+          "The layout of devices in a network",
+          "The speed of data transfer",
+          "The protocols used in a network",
+          "The security measures in place"
+        ],
+        "answer": "The layout of devices in a network"
+      },
+      {
+        "number": "53",
+        "question": "Which of the following protocols is used for email transmission?",
+        "options": [
+          "HTTP",
+          "SMTP",
+          "FTP",
+          "DHCP"
+        ],
+        "answer": "SMTP"
+      },
+      {
+        "number": "54",
+        "question": "What is the primary purpose of a proxy server?",
+        "options": [
+          "To increase bandwidth",
+          "To act as an intermediary for requests from clients",
+          "To manage network traffic",
+          "To encrypt data"
+        ],
+        "answer": "To act as an intermediary for requests from clients"
+      },
+      {
+        "number": "55",
+        "question": "Which of the following is an example of a connectionless protocol?",
+        "options": [
+          "TCP",
+          "UDP",
+          "HTTP",
+          "FTP"
+        ],
+        "answer": "UDP"
+      },
+      {
+        "number": "56",
+        "question": "What is the purpose of NAT Network Address Translation?",
+        "options": [
+          "To route packets",
+          "To provide security",
+          "To conserve IP addresses",
+          "To manage bandwidth"
+        ],
+        "answer": "To conserve IP addresses"
+      },
+      {
+        "number": "57",
+        "question": "Which of the following is NOT a function of the network layer?",
+        "options": [
+          "Routing",
+          "Packet forwarding",
+          "Error detection",
+          "Fragmentation"
+        ],
+        "answer": "Error detection"
+      },
+      {
+        "number": "58",
+        "question": "Min hamming distance to achieve 1 bit error correction",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3"
+      },
+      {
+        "number": "59",
+        "question": "Which of the following is a disadvantage of a mesh topology?",
+        "options": [
+          "High redundancy",
+          "Complex installation",
+          "High reliability",
+          "Low cost"
+        ],
+        "answer": "Complex installation"
+      },
+      {
+        "number": "60",
+        "question": "Which of the following is not a sliding window protocol?",
+        "options": [
+          "one-bit window stop and wait",
+          "goback N",
+          "selective repeat",
+          "simplex protocol"
+        ],
+        "answer": "simplex protocol"
+      },
+      {
+        "number": "61",
+        "question": "Order of layers in TCPIP I Physical II Network III Data link IV Transport V Application is",
+        "options": [
+          "I II III IV V",
+          "I III II IV V",
+          "I IV II III V",
+          "II I III IV V"
+        ],
+        "answer": "I III II IV V"
+      },
+      {
+        "number": "62",
+        "question": "Cause for Interference in unguided transmission media could be",
+        "options": [
+          "Rain",
+          "Other sounds",
+          "Overcrowded place",
+          "ALL of THESE"
+        ],
+        "answer": "ALL of THESE"
+      },
+      {
+        "number": "63",
+        "question": "Computer network does not finds its application in",
+        "options": [
+          "Online buying",
+          "Instant messaging",
+          "VoIP",
+          "Watch a TV Serial"
+        ],
+        "answer": "Watch a TV Serial"
+      },
+      {
+        "number": "64",
+        "question": "Computer network does not finds its application in",
+        "options": [
+          "Wireless communication with laptops",
+          "Taxi booking in metropolis",
+          "VPN",
+          "Shopping at a local store"
+        ],
+        "answer": "Shopping at a local store"
+      },
+      {
+        "number": "65",
+        "question": "The increasing order of the size of networks is",
+        "options": [
+          "LANWANMANPAN",
+          "PANLANMANWAN",
+          "WANMANLANPAN",
+          "SANVANMANLAN"
+        ],
+        "answer": "PANLANMANWAN"
+      },
+      {
+        "number": "66",
+        "question": "Which network does not support the distance mentioned",
+        "options": [
+          "LAN 10m-1km",
+          "MAN 10km",
+          "WAN- 100km-1000km",
+          "PAN- 1000km"
+        ],
+        "answer": "PAN- 1000km"
+      },
+      {
+        "number": "67",
+        "question": "Which of these is inappropriate among protocols",
+        "options": [
+          "Simplex -One-way",
+          "Half Duplex- Two-way",
+          "Full Duplex- Highway",
+          "Half simplex- No Communication"
+        ],
+        "answer": "Half simplex- No Communication"
+      },
+      {
+        "number": "68",
+        "question": "Connection oriented services cannot be likened to",
+        "options": [
+          "TelePhone system",
+          "Fax system",
+          "Mobile system",
+          "Postal System"
+        ],
+        "answer": "Postal System"
+      },
+      {
+        "number": "69",
+        "question": "Connection less service cannot be likened to",
+        "options": [
+          "Postal System",
+          "Swiggy system",
+          "Door delivery system",
+          "Mobile system"
+        ],
+        "answer": "Mobile system"
+      },
+      {
+        "number": "70",
+        "question": "Consider a channel with a 1-MHz bandwidth and SNR is 63. Calculated bit rate of the channel using Shannon formula is",
+        "options": [
+          "6 Mbps",
+          "7 Mbps",
+          "8 Mbps",
+          "9 Mbps"
+        ],
+        "answer": "7 Mbps"
+      },
+      {
+        "number": "71",
+        "question": "Consider a channel with a 1-MHz bandwidth and SNR is 63. The signal level using Nyquist formula consider 4Mbps as bandwidth for Nyquist formulais",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "2"
+      },
+      {
+        "number": "72",
+        "question": "Order the following materials of a Thick coaxial cable from innermost to outermost",
+        "options": [
+          "core, plastic cover, braided conductor, insulating material",
+          "core, braided conductor, plastic cover ,insulating material",
+          "core, insulating material , braided conductor, plastic cover",
+          "plastic cover , core, insulating material , braided conductor"
+        ],
+        "answer": "core, insulating material , braided conductor, plastic cover"
+      },
+      {
+        "number": "73",
+        "question": "Which of these not linked to fibre optics",
+        "options": [
+          "Total internal reflection",
+          "Copper wire",
+          "Glass core",
+          "Photo diode"
+        ],
+        "answer": "Copper wire"
+      },
+      {
+        "number": "74",
+        "question": "Order the following in the increasing order of frequency",
+        "options": [
+          "Visible Light X rays radio waves",
+          "Radio waves Infrared waves UV rays",
+          "Microwaves X rays Visible light",
+          "Radio Infrared Microwave"
+        ],
+        "answer": "Radio waves Infrared waves UV rays"
+      },
+      {
+        "number": "75",
+        "question": "Order the following in the increasing order of frequency",
+        "options": [
+          "Maritime radio TV",
+          "FM Radio AM radio Terrestrial Microwave",
+          "Terrestrial Microwave FM radio AM Radio",
+          "Radio Infrared Microwave"
+        ],
+        "answer": "Maritime radio TV"
+      },
+      {
+        "number": "76",
+        "question": "CSMACD stands for",
+        "options": [
+          "Carrier Sensing Multiple alliance Collision avoidance",
+          "Carrier Sensing Multiple alliance Collision Detection",
+          "Carrier Sensing Multiple access Collision avoidance",
+          "Carrier Sensing Multiple access Collision Detection"
+        ],
+        "answer": "Carrier Sensing Multiple access Collision Detection"
+      },
+      {
+        "number": "77",
+        "question": "Binary exponential back off means waiting for a period of time slots",
+        "options": [
+          "1,2,3,4",
+          "1,2,4,8",
+          "1,2,2,4",
+          "2,4,6,8"
+        ],
+        "answer": "1,2,4,8"
+      },
+      {
+        "number": "78",
+        "question": "Point to Point protocol supports",
+        "options": [
+          "Multi Cast",
+          "Broad Cast",
+          "Uni Cast",
+          "Group Cast"
+        ],
+        "answer": "Uni Cast"
+      },
+      {
+        "number": "79",
+        "question": "The minimum time a station has to wait before sending the next signal Prop- propagation delay between stations",
+        "options": [
+          "TProp",
+          "2xTProp",
+          "3xTProp",
+          "No wait"
+        ],
+        "answer": "2xTProp"
+      },
+      {
+        "number": "80",
+        "question": "In case of a collision in the channel between two stations, what follows?",
+        "options": [
+          "Retransmit frame immediately",
+          "Wait a Random time and retransmit frame",
+          "do nothing",
+          "Any of these"
+        ],
+        "answer": "Wait a Random time and retransmit frame"
+      }
+    ]
+  }
+]

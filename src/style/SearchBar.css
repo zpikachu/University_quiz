@@ -1,0 +1,39 @@
+/* SearchBar.css */
+
+.search-bar-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.search-bar-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+  transition: all 0.25s ease;
+  background-color: #ffffff;
+  color: #374151;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.15);
+}
+
+.search-bar-input::placeholder {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.search-bar-input:disabled {
+  background-color: #f3f4f6;
+  cursor: not-allowed;
+  border: 1px solid #e5e7eb;
+  color: #9ca3af;
+}

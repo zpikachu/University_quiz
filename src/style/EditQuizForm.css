@@ -1,0 +1,96 @@
+/* Container for the form */
+.edit-quiz-form {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 0.25s ease-out;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form title */
+.edit-quiz-form h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Message div */
+.edit-quiz-form .message {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #ffefef;
+  color: #d32f2f;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Input fields */
+.edit-quiz-form input[type="text"],
+.edit-quiz-form input[type="file"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.edit-quiz-form input[type="text"]:focus {
+  border-color: #3f51b5;
+  box-shadow: 0 0 5px rgba(63, 81, 181, 0.3);
+  outline: none;
+}
+
+/* Buttons container */
+.edit-quiz-form .buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+/* Save button */
+.edit-quiz-form .save-button {
+  flex: 1;
+  padding: 10px 0;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.edit-quiz-form .save-button:hover {
+  background-color: #303f9f;
+  box-shadow: 0 4px 10px rgba(63, 81, 181, 0.4);
+}
+
+/* Cancel button */
+.edit-quiz-form .cancel-button {
+  flex: 1;
+  padding: 10px 0;
+  background-color: #9e9e9e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.edit-quiz-form .cancel-button:hover {
+  background-color: #757575;
+  box-shadow: 0 4px 10px rgba(158, 158, 158, 0.4);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}

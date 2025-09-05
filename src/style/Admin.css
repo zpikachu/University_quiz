@@ -1,0 +1,84 @@
+/* Header row: search left, logout right */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+/* Search bar wider */
+.header-row input[type="text"] {
+  flex: 2; /* increase width */
+  padding: 10px 14px; /* slightly larger */
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.header-row input[type="text"]:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 6px rgba(76, 175, 80, 0.3);
+}
+
+/* Logout button */
+.logout-btn {
+  padding: 10px 18px;
+  background-color: #e53e3e;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c53030;
+  box-shadow: 0 4px 12px rgba(197, 48, 48, 0.4);
+}
+.i{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Add Quiz button */
+.add-quiz-button {
+  padding: 14px 40px; /* increase left/right padding */
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 20px;
+}
+
+.add-quiz-button:hover {
+  background-color: #43a047;
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+}
+
+/* Center Add Quiz button */
+.add-quiz-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Container remains same */
+.admin-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

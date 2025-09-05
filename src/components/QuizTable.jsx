@@ -13,7 +13,7 @@ export default function QuizTable({ quizzes, onEdit, fetchUpdated, onOpen }) {
 
   const handleConfirmDelete = async () => {
     try {
-      await fetch(`http://localhost:5000/api/admin/quizzes/${selectedQuiz.title}`, {
+      await fetch(`https://university-quiz.onrender.com/api/admin/quizzes/${selectedQuiz.title}`, {
         method: "DELETE"
       });
       setConfirmOpen(false);

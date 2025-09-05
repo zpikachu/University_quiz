@@ -5,7 +5,6 @@ export default function AddQuizForm({ onCancel, onSuccess }) {
   const [title, setTitle] = useState("");
   const [file, setFile] = useState(null);
   const [message, setMessage] = useState("");
-
   const handleAddQuiz = async () => {
     if (!title || !file) {
       setMessage("Please enter title and select JSON file.");
@@ -16,7 +15,7 @@ export default function AddQuizForm({ onCancel, onSuccess }) {
       const text = await file.text();
       const quizJSON = JSON.parse(text);
 
-      const res = await fetch("http://localhost:5000/api/admin/quizzes", {
+      const res = await fetch("https://university-quiz.onrender.com/api/admin/quizzes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ title, quizFile: quizJSON })

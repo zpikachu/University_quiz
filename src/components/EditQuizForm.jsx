@@ -10,7 +10,7 @@ export default function EditQuizForm({ quiz, onCancel, onSuccess }) {
     try {
       const quizFile = file ? JSON.parse(await file.text()) : undefined;
 
-      const res = await fetch(`http://localhost:5000/api/admin/quizzes/${quiz.title}`, {
+      const res = await fetch(`https://university-quiz.onrender.com/api/admin/quizzes/${quiz.title}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ title, quizFile })

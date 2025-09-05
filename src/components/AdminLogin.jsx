@@ -12,9 +12,10 @@ export default function AdminLogin({ onLoginSuccess }) {
       setDialog({ open: true, message: "Please enter both username and password", type: "error" });
       return;
     }
-
+   
+    
     try {
-      const res = await fetch("http://localhost:5000/api/admin/login", {
+      const res = await fetch("https://university-quiz.onrender.com/api/admin/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),

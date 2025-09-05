@@ -12,7 +12,7 @@ export default function UserPanel() {
   // Fetch all quizzes
   const fetchAllQuizzes = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/quizzes");
+      const res = await fetch(`https://university-quiz.onrender.com/api/quizzes`);
     
       const data = await res.json();
       setQuizzes(data);
@@ -38,7 +38,7 @@ export default function UserPanel() {
   // Open quiz: fetch questions from backend
   const handleOpenQuiz = async (quiz) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/quizzes/${encodeURIComponent(quiz.title)}`);
+      const res = await fetch(`https://university-quiz.onrender.com/api/quizzes/${encodeURIComponent(quiz.title)}`);
       setTitle(quiz.title);
       if (!res.ok) throw new Error("Quiz not found");
       const questions = await res.json();

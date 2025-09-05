@@ -16,7 +16,7 @@ export default function Admin({ onLogout }) {
 
   const fetchAllQuizzes = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/quizzes");
+      const res = await fetch("https://university-quiz.onrender.com/api/quizzes");
       const data = await res.json();
       setQuizzes(data);
     } catch {
@@ -48,7 +48,7 @@ export default function Admin({ onLogout }) {
 
   const handleOpenQuiz = async (quiz) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/quizzes/${encodeURIComponent(quiz.title)}`);
+      const res = await fetch(`https://university-quiz.onrender.com/api/quizzes/${encodeURIComponent(quiz.title)}`);
       setTitle(quiz.title);
       if (!res.ok) throw new Error("Quiz not found");
       const questions = await res.json();
